@@ -129,6 +129,29 @@ ARIMA model with the parameters (0, 0, 2) has as result of the rmse in test of 8
 
 This resutls can be improved with other methods as Prophet applied on data serie.
 
+Prophet is an open-source forecasting tool developed by Facebook's Core Data Science team. It is designed for time series forecasting and is particularly effective for data with strong seasonal patterns and historical data spanning multiple seasons.
+
+Key Features:
+- Additive Model: Prophet uses an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, along with holiday effects. This makes it suitable for time series data with complex seasonal patterns.
+- Automatic Forecasting: Prophet is designed to be easy to use and fully automatic. It can generate forecasts with minimal manual intervention, making it accessible for both data scientists and analysts.
+- Robustness: The model is robust to missing data and shifts in the trend, and it typically handles outliers well.
+- Customizability: While Prophet provides automated forecasts, it also allows for manual adjustments and tuning to improve forecast accuracy.
+
+Prophet is available in both R and Python, making it versatile for different programming environments. 
+
+Prophet is widely used for various applications, including:
+- Sales Forecasting: Predicting future sales based on historical data.
+- Capacity Planning: Estimating future resource requirements.
+- Financial Forecasting: Projecting future financial metrics.
+- Demand Forecasting: Anticipating future demand for products or services.
+
+Advantages:
+- Ease of Use: Prophet is user-friendly and requires minimal coding to generate forecasts.
+- Flexibility: It can handle different types of seasonality and incorporate holiday effects.
+- Scalability: Suitable for large datasets and can be used for forecasting at scale.
+
+Prophet is a powerful tool for time series forecasting, especially when dealing with seasonal data. 
+
 Plot forecast:
 
 ![alt text](images/image7.png)
