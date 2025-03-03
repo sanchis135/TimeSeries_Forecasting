@@ -116,6 +116,7 @@ Results of the best model:
 
 ![alt text](images/image4.png)
 
+
 ![alt text](images/image5.png)
 
 Prediction:
@@ -133,5 +134,6 @@ Plot forecast:
 ![alt text](images/image7.png)
 
 Plot individual components of forecast: trend, weekly/yearly seasonality:
+
 
 ![alt text](images/image8.png)
